@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# Tested to Ubuntu 16.04.3
+# Prereqs: Qt5.x and git
+# Prereqs can be installed using
+# sudo apt-get install qtbase5-dev
+# sudo apt-get install qt5-default
+# sudo apt-get install git-core
+# sudo apt-get install git
+
 if [ ! -d gnss_sdr_gui ];
 then
 echo "Clonning..."
